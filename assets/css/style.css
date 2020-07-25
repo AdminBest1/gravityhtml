@@ -1,0 +1,608 @@
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+.Placeholder{
+    width: 100%;
+}
+
+
+/* Container */
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.containermax {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+/*Started*/
+.started{
+    padding-top: 61px;
+    padding-bottom: 136px;  
+}
+
+h1{
+    font-size: 60px;
+    line-height: 1;
+}
+.wrapper {
+    padding-left: 126px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.offer{
+    margin-top: 74px;
+}
+.intro{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.btn {
+    background: #ed9619;
+    color: #fff;
+    display: block;
+    width: 205px;
+    padding: 20px 36px 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.bg{
+    position: relative;
+    bottom: 10px;
+    right: 100;
+
+    z-index: 1;
+}
+.video{
+  /*  position: absolute;
+    bottom: 0px;
+    right: 0;
+
+    z-index: 1;*/
+    position: absolute;
+    width: 800px;
+    height: 610px;
+    left: 570px;
+    top: 200px;
+    z-index: 1;
+}
+/* /Started*/
+
+/*2 Секция promlems*/
+.problems{
+    
+}
+h2{
+    font-size: 60px;
+    line-height: 1;
+}
+.promlems_offer {
+
+    margin-left: 125px;
+}
+.promlems-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.promlems_intro {}
+
+ 
+
+.author{
+    display: flex;
+}
+.author__content{
+    margin-left: 33px;
+}
+.authorauthor__name{
+    font-weight: bold;
+}
+/* /promlems*/
+
+
+/*Services*/
+.services{
+    margin-top: 142px;
+    margin-bottom: 179px;   
+}
+.services_menu{
+    margin-left: 120px;  
+    display: flex;
+}
+.services_title{
+    width: 590px;   
+}
+.services_item:last-child{
+    margin-left: 105px;
+}
+.services_wrapper {
+    display: flex;
+}
+
+.services img{
+    margin-top: 111px;
+}
+.services h2{
+    font-size: 38px;
+    line-height: 1,5;    
+}
+.services_menu h3{
+    margin-bottom: 31px;
+}
+/*Slider*/
+.owl-carousel .item, .owl-item{
+    width: 825px !important;
+    
+}
+.owl-stage-outer{
+    height: 506px;
+}
+.owl-prev{
+    margin-right: 25px;
+}
+
+/* /Services*/
+
+
+/*Result*/
+.result_offer {
+
+    margin-left: 190px;
+}
+.result-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.advantages-item {
+    display: flex;
+
+}
+.result-text {
+    margin-left: 30px;  
+    text-transform: uppercase;
+}
+.advantages-item{
+    margin-bottom: 30px;    
+}
+.result_imgone {
+    width: 570px;
+    height: 417px;
+}
+.result_imgtwo {
+    position: absolute;
+    width: 350px;
+    height: 453px;
+    left: 315px;
+    top: 163px;
+}
+
+
+/*Discover our Work */
+.discover{
+    margin-top: 200px;
+    margin-bottom: 159px;
+}
+
+/* Card */
+.card {
+    margin: 80px -15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__item {
+    width: 33.33333%;
+    padding: 0 15px;
+}
+
+.card__inner {
+    position: relative;
+    background-color: #95e1d3;
+    margin-bottom: 20px;
+}
+
+.card__inner:hover .card__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card__inner:hover .card__img img {
+    opacity: .1;
+}
+
+.card__inner:hover .card__text {
+    opacity: 1;
+}
+
+.card__img {
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    
+    transition: transform .2s linear;
+}
+
+.card__img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity .1s linear;
+}
+
+.card__text {
+    width: 100%;
+
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+
+    transition: opacity .2s linear;
+}
+
+.card__info {
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.card__name {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.card__prof {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999;
+}
+/*CSS-стили для табов/вкладок*/
+.tabs__content {
+  display: none !important; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+  display: flex !important; /* по умолчанию показываем нужный блок */
+}
+
+.wraper{
+    display: flex;
+  
+}
+
+.discover-text{
+    width: 66%;
+}
+.discover-wraper{
+    margin-top: 52px;  
+    justify-content: space-between; 
+}
+.nav {
+    text-transform: uppercase;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;  
+    list-style: none;
+     
+}
+
+.nav__link {
+    
+    margin: 0px;
+    margin-left: 31px; 
+    text-decoration: none;
+     color: #000;
+}
+
+.m{
+    margin-top: 53px;       
+}
+
+/* testimonialsr */
+.testimonialsr-author{
+       
+}
+.Placeholder{
+    width: 445px;
+    height: 620px   
+}
+.testimonialsr-buttons{
+    margin-top: 54px;   
+}
+
+/*Our Clients*/
+.clients{
+    margin-top: 254px;
+    margin-bottom: 100px;   
+}
+.intro-wraper{
+    display: flex;
+    
+}
+.testimonialsr_intro{
+    display: block; 
+}
+
+.clients-wraper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clients-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 85px;   
+}
+
+.footer{
+    background: #000;
+    width: 100%;    
+    height: 240px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.copyright img{
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+
+/*/*Adaptive*/
+@media screen and (max-width: 1200px) {
+    html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
+    .container {
+        width: 801px;
+    }
+    .wrapper {
+    padding-left: 26px;
+    }
+    .bg {
+    width: 60%;
+    }
+    .video {
+    left: 170px;
+    }
+    .containermax {
+        width: 801px;
+    }
+    .result-wrapper{
+        width: 801px;
+    }
+    .result img{
+        width: 40%;
+        height: 40%;
+    }
+    .advantages{
+        display: flex;
+    }
+    .advantages-item:nth-child(2){
+        margin-left: 40px;  
+    }
+    .advantages img{
+        width: auto;
+        height: auto;     
+    }
+    .result_imgtwo {
+        left: 115px;
+    }
+    .promlems_offer{
+        margin-left: 20px;  
+    }
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: auto;
+        padding: 0 10px;
+        min-width: 290px;
+    }
+    .containermax {
+        width: auto;
+        padding: 0 10px;
+        min-width: 290px;
+    }
+    h1 {
+        width: auto;
+    }
+    .problems_bg{
+        width: 50%;
+        height: 50%;     
+    }
+    .author__photo{
+        width: 50px;
+        height: 50px;   
+
+    }
+    .result_imgtwo {
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 5px;
+        top: 193px;
+    }
+    .result_offer{
+        margin-left: 20px; 
+        padding-right: 70px;      
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .video{
+            left: 70px; 
+        }
+        .result-wrapper {
+            display: block;
+        }
+        .result_imgtwo{
+            top: 23px;
+            left: 145px;
+        }
+        .result_offer{
+            width:  75%;   
+        }
+        .nav {
+            display: block;  
+        }
+        .wrapper{
+            display: block;
+        }
+        
+}
+@media screen and (max-width: 576px) {
+    html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+            overflow-x: hidden;
+    }
+    h2, h3, p{
+        margin: 0 auto;
+
+    }
+    h1, h2 {
+        font-size: 42px;
+    }
+    .container {
+        width: auto;
+        padding: 0 10px;
+        min-width: 290px;
+    }
+    .containermax {
+        width: auto;
+        padding: 0 10px;
+        min-width: 290px;
+    }
+    /* первый блок started */
+    .started {
+        padding-bottom: 36px;
+    }
+    .header__inner{
+        margin-top: 10px;
+    }
+    .wrapper{
+        display: block;
+    }
+    .bg, .video{
+        display: none;  
+    }
+
+    /*-- Вторая секция promlems */   
+    .promlems-wrapper {
+        display: block;    
+    }
+    .promlems_intro, .author{
+        margin-top: 10px;   
+    }
+    .problems_bg{
+        margin-left: 25%;
+    }
+    /*<!-- Services-->*/
+    .services_wrapper{
+        display: block;
+    }
+    .services_title{
+        width:  90%;
+        text-align: center;
+    }
+    .services_menu{
+        margin-left: 0;
+        margin-top: 10px;    
+        text-align: center;
+    }
+    .owl-carousel{
+        margin-top: 0px;  
+    }
+    /*<!-- Result-->*/
+    .advantages{
+       display: block; 
+    }
+    .advantages-item:nth-child(2){
+        margin-left: 0px;  
+    }
+    .result_offer {
+        width: 45%;
+        margin-top: 55px;   
+    }
+    .advantages{
+        margin-top: 10px;   
+    }
+
+    /*<!-- Discover our Work -->*/
+    .card{
+        display: block; 
+        width:  90%;
+        margin: 0;  
+    }
+    .wraper {
+        display: block;
+    }
+    .discover-text{
+        width: 90%;
+        margin-right: 0;    
+    }
+    .Placeholder{
+        width:  90%;
+        height: 90%;
+    }
+
+    /*<!-- clients -->*/
+    .clients {
+       margin-top: 10px;    
+    }
+
+}
